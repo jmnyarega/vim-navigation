@@ -1,18 +1,18 @@
 nnoremap <C-h> :cnext<CR>zz
 nnoremap <C-j> :cprev<CR>zz
 nnoremap <c-l> :clist <CR>zz
-nnoremap <leader>lk :lnext<CR>zz
-nnoremap <leader>lj :lprev<CR>zz
+nnoremap <Leader>lk :lnext<CR>zz
+nnoremap <Leader>lj :lprev<CR>zz
 nnoremap <C-q> :call ToggleQFList(1)<CR>
-nnoremap <leader>q :call ToggleQFList(0)<CR>
+nnoremap <Leader>q :call ToggleQFList(0)<CR>
 
 nnoremap <F10> :bnext <CR>
 nnoremap <F9> :bprev <CR>
 
-noremap <leader>h :wincmd h <CR>
-noremap <leader>j :wincmd j <CR>
-noremap <leader>k :wincmd k <CR>
-noremap <leader>l :wincmd l <CR>
+noremap <Leader>h :wincmd h <CR>
+noremap <Leader>j :wincmd j <CR>
+noremap <Leader>k :wincmd k <CR>
+noremap <Leader>l :wincmd l <CR>
 
 let g:f_l = 0
 let g:f_g = 0
